@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://scanbitz.com/wp-sitemap.xml
+
+Sitemap: https://scanbitz.com/sitemap.xml.gz

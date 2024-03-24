@@ -1,0 +1,195 @@
+﻿/*   
+Theme Name: McKenna
+Theme URI: 
+Description: Use this theme to start your Thematic Child Theme development.
+Author: Ian Stewart
+Author URI: http://themeshaper.com/
+Template: thematic
+Version: 1.0
+Tags: Thematic
+.
+Thematic is © Ian Stewart http://themeshaper.com/
+.
+*/
+
+/* Reset browser defaults */
+@import url('../thematic/library/styles/reset.css');
+
+/* Apply basic typography styles */
+@import url('../thematic/library/styles/typography.css');
+
+/* Apply a basic layout */
+@import url('../thematic/library/layouts/2c-r-fixed.css');
+
+/* Apply basic image styles */
+@import url('../thematic/library/styles/images.css');
+
+/* Apply default theme styles and colors */
+/* It's better to actually copy over default.css into this file (or link to a copy in your child theme) if you're going to do anything outrageous */
+@import url('../thematic/library/styles/default.css');
+
+/* Prepare theme for plugins */
+@import url('../thematic/library/styles/plugins.css');
+
+#primary {
+
+    border:none;
+
+}
+
+#branding {
+background:url(/car2.jpg) no-repeat left top;
+width: 800px;
+height: 75px;
+}
+
+body {
+/*   background-color: #dddddd; */
+   background-color: #0f0e13;
+  font-family: tahoma !important;
+}
+
+#wrapper, #main {
+  width: 800px;
+  margin: 0px auto;
+  background-color: white;
+}
+
+#main {
+ padding-top: 30px !important;
+
+  background: #000000;
+}
+
+#wrapper #blog-title a {
+  display:none;
+}
+
+#footer {
+  display:none;
+}
+
+#wrapper a:link, 
+h2, h1,
+#wrapper a, 
+#wrapper a:visited{
+color:#666666;
+text-decoration:none;
+}
+
+#wrapper a:hover{
+color:#666666;
+text-decoration:underline;
+}
+
+#wrapper .entry-content {
+  padding-top: 0px;
+}
+
+#wrapper .ngg-album{
+  padding-left: 0px;
+}
+
+
+#wrapper .sf-menu li,
+#wrapper .sf-menu li:hover,
+#wrapper .sf-menu li ul.children li,
+#wrapper .sf-menu li a:hover,
+#wrapper .sf-menu li a {
+  /* background-color: #4043CB; */
+   background-color: #000000; 
+}
+
+/*#wrapper .entry-utility a:link {
+  color: #06000f;
+}*/
+
+
+#wrapper .sf-menu li a { 
+  color:white;
+  /*font-weight: bold;*/
+    padding-left: 5px;
+    padding-right: 5px;
+
+
+}
+
+#wrapper .sf-menu li a:hover { 
+  /*color:#fff568;*/
+  color:#666666;
+  /*font-weight: bold;*/
+}
+
+#primary h3.widgettitle {
+    display: none;
+
+}
+
+#primary ul{
+
+    margin:0 0 0 0;
+
+}
+#primary li{
+
+    list-style:none outside none;
+
+
+
+}
+#content .ngg-thumbnail, .ngg-gallery-thumbnail, .ngg-gallery-thumbnail-box {
+
+  background-color: #000000;
+
+  border-color: #000000;
+
+}
+
+.entry-content  .ngg-gallery-thumbnail-box {
+
+  border-color: #000000;
+  background-color: #000000;
+
+}
+
+
+#container,
+#content {
+  width: 470px;
+  color:#F2EBFD;
+}
+
+
+#blog-title a, #blog-title a:visited {
+color:#151515;
+}
+
+#wrapper .menu {
+background-color:#000000;
+height:31px;
+margin:0 auto;
+width:800px;
+border: 1px solid #CCCCCC;
+}
+
+#wrapper li a {
+  border-top: none;
+  border-bottom: none;
+}
+
+
+#wrapper .ngg-navigation a{
+border:none;
+}
+
+#wrapper .ngg-slideshow-loader {
+ display:none;
+
+}
+
+
+#blog-description{
+
+    display:none;
+
+}
